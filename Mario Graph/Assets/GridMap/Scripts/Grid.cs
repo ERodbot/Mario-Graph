@@ -16,7 +16,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class Grid : MonoBehaviour {
+public class Grid {
 
     public event EventHandler<OnGridValueChangedEventArgs> OnGridValueChanged;
     public class OnGridValueChangedEventArgs : EventArgs {
